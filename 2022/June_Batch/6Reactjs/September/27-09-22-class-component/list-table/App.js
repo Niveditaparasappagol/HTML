@@ -34,7 +34,7 @@ class App extends Component {
   // getListDetails = () => {
   //   axios.get("http://localhost:3000/classtable").then((response) => {
   //     console.log(response.data);
-  //     this.setState({list:response.data})
+  //     this.setState({list:response.data})    //for binding data 
   //   }).catch((error) => {
   //     console.log(error);
   //   })
