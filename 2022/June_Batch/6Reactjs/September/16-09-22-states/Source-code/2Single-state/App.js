@@ -22,8 +22,8 @@ function App(){
      <div className="form">
      Enter Mobile Name:<input type="text"  name="mobile" onChange={onChangeHandler} id="mobile"/>
      <br/><br/>
-     Enter Price Details:<input type="text" name="price" onChange={onChangeHandler} id="price"/>
-     <br/><br/>
+     Enter Price Details:<input type="text" name="price" onChange={onChangeHandler} id="price"/>  //using same state name bcz we dont need to check condition like how we did in multiple state
+     <br/><br/>                                                                                //like name=mobile,price,discount
      Enter Discount Details:<input type="text" name="discount" onChange={onChangeHandler} id="discount"/>
     
     </div> 
