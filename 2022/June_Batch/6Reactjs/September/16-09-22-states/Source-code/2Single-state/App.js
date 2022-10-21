@@ -13,7 +13,7 @@ function App(){
 
 
     const onChangeHandler=(event)=>{
-      setList({...getList,[event.target.name]:event.target.value})
+      setList({...getList,[event.target.name]:event.target.value})   //whenever using array and object use spraed operator  bcz it was taking other values as undefined
     }
 
   
