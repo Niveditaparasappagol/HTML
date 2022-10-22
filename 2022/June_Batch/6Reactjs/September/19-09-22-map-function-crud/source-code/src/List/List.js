@@ -3,7 +3,7 @@ import './List.css';
 const List=(props)=>{
     return (<div className='list-box'>
         <ul>
-            {props.list.map((obj,index)=>{
+            {props.list.map((obj,index)=>{    //here map function is used for iteration purpose
                 return(<div className="list" key={index}>
                     <li>{obj}</li>
                     <button className="list-button" onClick={()=>props.onEditHandler(index)}>Edit</button>
