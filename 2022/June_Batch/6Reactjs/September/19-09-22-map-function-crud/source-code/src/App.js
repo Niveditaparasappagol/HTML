@@ -16,7 +16,7 @@ function App() {
   }
 
   const onAddHandler=()=>{
-    setList([...getList,getText]);
+    setList([...getList,getText]);  //here getText is the new data
     console.log(getList);
     setText('');
   }
