@@ -33,7 +33,7 @@ const QuestionList = () => {
 
     const getInitialDetails = async () => {
         try {
-            const api = await axios.get("http://localhost:3000/feedbackquestion");
+            const api = await axios.get("http://localhost:3000/feedbackquestion");  //instead of using then and catch we are using async,await both are same
             //console.log(api.data);
             setList([...api.data]);
         } catch (err) {
