@@ -9,7 +9,7 @@ const Login = () => {
 
     //step2: do the instantiation for using useNavigation
     const navigation = useNavigate();
-    const [getLoading,setLoading] = useState(false);
+    const [getLoading,setLoading] = useState(false);  //for spinner
     const [getForm,setForm] = useState({
         email:'',
         password:''
