@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import counterRedux from "./counter";
 
 export default configureStore({
-  reducer: {
+  reducer: {    //here reducer is prdefined keyword
     counter: counterRedux
   }
 });
