@@ -16,7 +16,7 @@ export const counterSlice = createSlice({
     restart:(state)=>{
       state.count = 0;
     },
-    userincrement:(state,action)=>{
+    userincrement:(state,action)=>{  //here action is for accessing data provided by user.
           console.log(action.payload);
       state.count += action.payload;
     }
