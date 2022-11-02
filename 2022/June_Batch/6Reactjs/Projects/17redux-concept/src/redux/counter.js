@@ -7,7 +7,7 @@ export const counterSlice = createSlice({
     login:true
   },
   reducers: {
-    increment: (state) => {
+    increment: (state) => {   //dont change the state keyword default
       state.count += 1;
     },
     decrement: (state) => {
